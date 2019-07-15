@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf)
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #efefef;
+    font-family: Roboto;
+}
+main {
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+.photo {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 10px;
+    background-color: orange;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+    transition: all 0.5s ease;
+}
+.photo:hover {
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+h1, h2 {
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px
+}
+.photo1 {
+    background: url(../img/01.jpg);
+    background-size: 100% 100%;
+}
+.photo2 {
+    background: url(../img/02.jpg);
+    background-size: 100% 100%;
+}
+.photo3 {
+    background: url(../img/03.jpg);
+    background-size: 100% 100%;
+}
+.photo4 {
+    background: url(../img/04.jpg);
+    background-size: 100% 100%;    
+}
+.photo5 {
+    background: url(../img/05.jpg);
+    background-size: 100% 100%;    
+}
+.photo6 {
+    background: url(../img/06.jpg);
+    background-size: 100% 100%;    
+}
+.photo7 {
+    background: url(../img/07.jpg);
+    background-size: 100% 100%;    
+}
+.photo8 {
+    background: url(../img/08.jpg);
+    background-size: 100% 100%;    
+}
+.photo9 {
+    background: url(../img/09.jpg);
+    background-size: 100% 100%;    
+}
+.photo10 {
+    background: url(../img/10.jpg);
+    background-size: 100% 100%;    
+}
+.photo11 {
+    background: url(../img/11.jpg);
+    background-size: 100% 100%;    
+}
+.photo12 {
+    background: url(../img/12.jpg);
+    background-size: 100% 100%;    
+}
